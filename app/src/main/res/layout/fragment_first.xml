@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cse15u045.fragment.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/k"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="THIS IS FIRST FRAGMENT" />
+    <Button
+        android:layout_below="@+id/k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="click"
+        android:padding="10dp"/>
+    </RelativeLayout>
+
+</FrameLayout>
